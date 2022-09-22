@@ -1,0 +1,39 @@
+.intro {
+  max-width: 690px;
+  margin-top: 92px;
+  margin-left: calc((100vw - 984px)/2);
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: calc((100vw - 928px)/2);
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .intro {
+    margin: 90px auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .intro {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    margin-top: 64px;
+  }
+}
+
