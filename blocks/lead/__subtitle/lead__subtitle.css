@@ -4,7 +4,7 @@
   text-align: center;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   color: #fff;
 }
 
@@ -25,6 +25,6 @@
     max-width: 288px;
     margin: 0 auto 40px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
   }
 }
