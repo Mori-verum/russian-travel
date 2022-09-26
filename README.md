@@ -4,6 +4,7 @@
 * Интро
 * Figma
 * Реализация
+* GitHub Pages
 
 **Интро**
 
@@ -21,3 +22,5 @@ _Реализован с поддержкой [Яндекс Практикума
 * применение псевдоклассов
 * структура файлов по БЭМ nested
 
+**GitHub Pages**
+* [Ссылка](https://mori-verum.github.io/russian-travel/) на GitHub Pages
