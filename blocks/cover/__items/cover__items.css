@@ -1,0 +1,18 @@
+.cover__items {
+  position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+  z-index: 10;
+  width: 560px;
+  height: 250px;
+}
+
+@media screen and (max-width: 544px) {
+  .cover__items {
+    width: 288px;
+    height: 134px;
+  }
+}
