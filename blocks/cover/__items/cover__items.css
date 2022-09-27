@@ -1,18 +1,19 @@
 .cover__items {
+  display: table;
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translate(0, -50%);
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin: auto;
+	margin: 0 auto;
   z-index: 10;
   max-width: 560px;
-  max-height: 250px;
 }
 
 @media screen and (max-width: 544px) {
   .cover__items {
-    width: 288px;
-    height: 134px;
+    max-width: 288px;
+    min-height: 134px;
   }
 }

@@ -1,27 +1,20 @@
 .intro {
   max-width: 690px;
   margin-top: 92px;
-  margin-left: calc((100vw - 984px)/2);
+  margin-left: calc((100% - 984px)/2);
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin-left: calc((100vw - 928px)/2);
-  }
-}
-
-@media screen and (max-width: 944px) {
-  .intro {
-    margin: 92px auto 0;
-    max-width: 720px;
-    margin-top: 88px;
+    margin-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 88px 0 0;
+    max-width: 720px;
+    padding: 0 24px;
   }
 }
 
@@ -29,6 +22,8 @@
   .intro {
     max-width: 288px;
     margin-top: 64px;
+    padding: 0 16px;
   }
 }
+
 

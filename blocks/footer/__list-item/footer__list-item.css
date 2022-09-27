@@ -1,18 +1,18 @@
 .footer__list-item {
   display: inline;
-  padding-right: 18px;
+  padding-right: 14px;
 }
 .footer__list-item:last-child {
-  padding-right: 0px;
+  padding-right: 0;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 767px) {
   .footer__list-item {
     display: block;
     padding: 0;
-    margin-bottom: 32px;
+    margin-bottom:32px;
   }
   .footer__list-item:last-child {
-    margin: 0;
+    margin-bottom: 0;
   }
 }

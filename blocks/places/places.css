@@ -5,16 +5,12 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    margin: 0px calc((100vw - 928px)/2) 0;
+    box-sizing: border-box;
+    max-width: calc(1184px + (48 + 2));
+    padding: 0 48px;
   }
 }
 
-@media screen and (max-width: 944px) {
-  .places {
-    max-width: 720px;
-    margin: 88px auto 0;
-  }
-}
 @media screen and (max-width: 768px) {
   .places {
     margin-left: 24px;
@@ -24,6 +20,6 @@
 
 @media screen and (max-width: 320px) {
   .places {
-    margin-top: 64px;
+    margin: 64px 0 0;
   }
 }

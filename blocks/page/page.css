@@ -2,5 +2,6 @@
   box-sizing: border-box;
   width: 100%;
   background-color: #2a2c2f;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  min-width: 303px;
 }
