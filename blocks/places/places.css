@@ -6,7 +6,7 @@
 @media screen and (max-width: 1024px) {
   .places {
     box-sizing: border-box;
-    max-width: calc(1184px + (48 + 2));
+    max-width: calc(1184px + (48px + 2px));
     padding: 0 48px;
   }
 }
