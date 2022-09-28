@@ -15,12 +15,14 @@
 }
 @media screen and (max-width: 768px) {
   .place {
+    grid-template-columns: repeat(auto-fill, 340px);
+    justify-content: center;
     column-gap: 28px;
     margin-top: 73px;
   }
 }
 
-@media screen and (max-width: 623px) {
+@media screen and (max-width: 450px) {
   .place {
     display: block;
     margin-top: 50px;
